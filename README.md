@@ -25,13 +25,7 @@ Showcasing my journey, achievements, and skills in one place.
 ✔️ **Sticky navbar** for smooth navigation  
 ✔️ Sections: **Education | Skills | Certificates | Personal Info**  
 ✔️ My certificates 📜 (image showcase)  
-✔️ Links to **GitHub & LinkedIn** 🔗  
-
----
-
-## 📜 Certificates
-- 🏅 Certificate 1 (certificate1.jpg)  
-- 🏅 Certificate 2 (certificate2.jpg)  
+✔️ Links to **GitHub & LinkedIn** 🔗   
 
 ---
 
