@@ -47,15 +47,17 @@
       background: #111;
       display: flex;
       justify-content: center;
-      padding: 15px 0;
+      flex-wrap: wrap;
+      padding: 12px;
       z-index: 1000;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 6px 15px;
       font-weight: bold;
       transition: 0.3s;
+      font-size: 16px;
     }
     nav a:hover {
       color: #ffd700; /* golden hover */
@@ -106,24 +108,33 @@
       margin-top: 40px;
     }
     .visit, .details {
-      text-align: left;
+      text-align: center;
     }
     .visit h3, .details h3 {
       color: #ffd700;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
+
+    /* Buttons for visit section */
     .visit a {
-      display: block;
-      margin: 8px 0;
-      color: #ffd700;
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
       font-weight: bold;
+      color: black;
+      background: #ffd700;
+      border-radius: 6px;
       text-decoration: none;
-      font-size: 18px;
       transition: 0.3s;
     }
     .visit a:hover {
-      color: white;
+      background: white;
+      color: black;
+      box-shadow: 0 0 12px #ffd700;
     }
+
+    /* Contact details */
     .details p {
       margin: 8px 0;
       font-size: 18px;
@@ -160,7 +171,7 @@
   <!-- Skills -->
   <section id="skills">
     <h2>⚡ Skills</h2>
-    <p>✔️ Python | C++ | Web Development (HTML, CSS, JS)</p>
+    <p>✔️ Python | C++ | SQL | Web Development (HTML, CSS)</p>
     <p>✔️ Problem Solving | Creativity | Leadership</p>
   </section>
 
@@ -179,8 +190,8 @@
   <section id="contact" class="contact">
     <h2>📬 Get in Touch</h2>
     <div class="contact-container">
-      <div class="visit">
-        <h3>You can visit my:</h3>
+      <div class="click to visit">
+        <h3>Click to visit my:</h3>
         <a href="https://github.com/2k24csds1b2410587-bot" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/isha-4a3387343" target="_blank">LinkedIn</a>
       </div>
