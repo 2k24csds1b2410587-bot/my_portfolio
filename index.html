@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Isha's Portfolio</title>
+
+  <!-- Open Graph Meta Tags for LinkedIn -->
+  <meta property="og:title" content="Isha's Portfolio" />
+  <meta property="og:description" content="Explore my projects, skills, and journey in tech 🚀" />
+  <meta property="og:image" content="https://2k24csds1b2410587-bot.github.io/my_portfolio/thumbnail.png" />
+  <meta property="og:url" content="https://2k24csds1b2410587-bot.github.io/my_portfolio/" />
+  <meta property="og:type" content="website" />
+
   <style>
     body {
       margin: 0;
@@ -89,57 +97,37 @@
       color: #f8f8f8;
     }
 
-    /* About Me */
-    #about p {
-      font-size: 18px;
-      color: #f0f0f0;
-      max-width: 800px;
-      margin: auto;
-      line-height: 1.6;
-    }
-
-    /* Contact Section Columns */
-    .contact-columns {
+    /* Contact section layout */
+    .contact-container {
       display: flex;
       justify-content: center;
+      gap: 80px;
       flex-wrap: wrap;
-      gap: 50px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
-    .contact-column {
-      flex: 1 1 250px;
+    .visit, .details {
       text-align: left;
-      min-width: 250px;
     }
-    .contact-column h3 {
+    .visit h3, .details h3 {
       color: #ffd700;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
-    .contact-column p {
-      font-size: 18px;
-      color: #f0f0f0;
-      line-height: 1.6;
-      margin: 5px 0;
-    }
-
-    /* Contact Buttons (GitHub & LinkedIn) */
-    .contact-column a {
-      display: inline-block;
-      margin: 5px 10px 5px 0;
+    .visit a {
+      display: block;
+      margin: 8px 0;
       color: #ffd700;
       font-weight: bold;
       text-decoration: none;
       font-size: 18px;
-      border: 2px solid #ffd700;
-      padding: 8px 15px;
-      border-radius: 6px;
       transition: 0.3s;
     }
-    .contact-column a:hover {
-      background: #ffd700;
-      color: black;
+    .visit a:hover {
+      color: white;
     }
-
+    .details p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
   </style>
 </head>
 <body>
@@ -150,7 +138,6 @@
     <a href="#education">Education</a>
     <a href="#skills">Skills</a>
     <a href="#about">About Me</a>
-    <a href="#personal">Personal</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -179,38 +166,28 @@
 
   <!-- About Me -->
   <section id="about">
-    <h2>📝 About Me</h2>
+    <h2>🙋 About Me</h2>
     <p>
-      Hi! I'm Isha, a passionate B.Tech student with a love for coding and creativity. 
-      I enjoy building web applications, solving challenging problems, and learning 
-      new technologies. Beyond coding, I love exploring design, art, and continuous 
-      self-improvement. My goal is to combine technical skills with creativity to 
-      build impactful solutions.
+      I am Isha, a passionate learner and aspiring developer with a deep interest in technology, coding, 
+      and problem-solving. My journey has been filled with curiosity and dedication, always striving to 
+      grow my skills and turn innovative ideas into impactful solutions. I believe in continuous learning 
+      and enjoy exploring new domains where creativity meets logic.
     </p>
-  </section>
-
-  <!-- Personal -->
-  <section id="personal">
-    <h2>👩 Personal Details</h2>
-    <p><b>Date of Birth:</b> 15 Aug 2006</p>
-    <p><b>Mother:</b> Shalini Pal | <b>Father:</b> Shamsher Singh</p>
   </section>
 
   <!-- Contact -->
   <section id="contact" class="contact">
-    <div class="contact-columns">
-      <!-- Left Column: GitHub & LinkedIn -->
-      <div class="contact-column">
-        <h3>📬 You Can Visit My:</h3>
+    <h2>📬 Get in Touch</h2>
+    <div class="contact-container">
+      <div class="visit">
+        <h3>You can visit my:</h3>
         <a href="https://github.com/2k24csds1b2410587-bot" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/isha-4a3387343" target="_blank">LinkedIn</a>
       </div>
-
-      <!-- Right Column: Email & Phone -->
-      <div class="contact-column">
-        <h3>📞 Contact Details:</h3>
-        <p>📧 Email: ishasingh1424@gmail.com</p>
-        <p>📱 Phone: 7317686XXX</p>
+      <div class="details">
+        <h3>Contact Details:</h3>
+        <p><b>Email:</b> ishasingh1424@gmail.com</p>
+        <p><b>Phone:</b> 7317686XXX</p>
       </div>
     </div>
   </section>
